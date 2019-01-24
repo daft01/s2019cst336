@@ -9,8 +9,19 @@
             <li><a href="">Home</a></li>
         </ul>
         
-        <h1>Daniel Morales</h1>
-        <h2>Developer</h2>
-        <p>First generation college student passionate about problem-solving and helping to improve people's lives through technology.</p>
+        <div class="row">
+            
+            <div class="column">
+                <h1>Daniel Morales</h1>
+                <h2>Developer</h2>
+                <p>First generation college student passionate about problem-solving and helping to improve people's lives through technology.</p>
+            </div>
+            
+            <div class="column">
+                <h1>Pic</h1>
+            </div> 
+            
+        </div>
+        
     </body>
 </html>

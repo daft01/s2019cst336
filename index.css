@@ -21,3 +21,14 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
