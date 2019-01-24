@@ -5,7 +5,8 @@
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1E9yirylJO2GzkPrL_8-VkKineCrIzBSJ/view?usp=sharing">Resume</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1rv910JSA6E8RDCo0tDbGliI-HNRYOc_j?usp=sharing">Reference Letters</a></li>
             <li style="float:right"><a class="active" href="">Contact</a></li>
         </ul>
         
@@ -18,9 +19,8 @@
             </div>
             
             <div id="picture">
-                <h1>Pic</h1>
+                <img src="ProfilePicture.png" alt="Profile Picture">
             </div> 
-            
         </div>
         
     </body>

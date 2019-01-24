@@ -1,6 +1,9 @@
 body {
   background-image: url("Background.jpg");
-  background-color: #cccccc;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 ul {
@@ -42,12 +45,17 @@ li a:hover {
   float: right;
   width: 50%;
   text-align: center;
+  color: white;
 }
 
 #picture {
   float: left;
   width: 50%;
   text-align: center;
+}
+
+img {
+  border-radius: 50%;
 }
 
 .row:after {
