@@ -7,7 +7,7 @@ ul {
 }
 
 #leftMenuBar {
-  float: left;
+  display: inline-block;
 }
 
 #rightMenuBar {
