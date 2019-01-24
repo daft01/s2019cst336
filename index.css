@@ -7,9 +7,8 @@ body {
 }
 
 ul {
-  position: fixed;
   list-style-type: none;
-  width: 100%;
+  width: 90%;
   margin: 0;
   padding: 0;
   overflow: hidden;
