@@ -1,5 +1,12 @@
+body {
+  background-image: url("Background.jpg");
+  background-color: #cccccc;
+}
+
 ul {
+  position: fixed;
   list-style-type: none;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -25,6 +32,10 @@ li:last-child {
 
 li a:hover {
   background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }
 
 #info {
