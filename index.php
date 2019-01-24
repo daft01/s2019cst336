@@ -3,10 +3,14 @@
     <link href="index.css" rel="stylesheet" type="text/css">
     <body>
         <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Home</a></li>
+            <div id="leftMenuBar">
+                <li><a href="">Contact</a></li>
+                <li><a href="">Resume</a></li>
+            </div>
+            <div id="rightMenuBar">
+                <li><a href="">About</a></li>
+                <li><a href="">Home</a></li>
+            </div>
         </ul>
         
         <div class="row">

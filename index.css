@@ -6,7 +6,11 @@ ul {
   background-color: #333;
 }
 
-li {
+#leftMenuBar {
+  float: left;
+}
+
+#rightMenuBar {
   float: right;
 }
 
