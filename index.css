@@ -22,7 +22,12 @@ li a:hover {
   background-color: #111;
 }
 
-.column {
+#info {
+  float: right;
+  width: 50%;
+}
+
+#picture {
   float: left;
   width: 50%;
 }
