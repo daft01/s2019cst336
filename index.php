@@ -3,10 +3,10 @@
     <link href="index.css" rel="stylesheet" type="text/css">
     <body>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Resume</li>
-            <li>Contact</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
         
         <h1>Daniel Morales</h1>
