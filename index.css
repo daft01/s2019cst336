@@ -25,11 +25,13 @@ li a:hover {
 #info {
   float: right;
   width: 50%;
+  text-align: center;
 }
 
 #picture {
   float: left;
   width: 50%;
+  text-align: center;
 }
 
 .row:after {
