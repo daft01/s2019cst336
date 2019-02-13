@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Seasons </title>
+        
+        <style>
+            body{
+                background-color: black;
+                color: white;
+                text-align: center;
+                font-family: cursive;
+            }
+            
+            .row{
+                display: flex;
+                justify-content:center;
+            }
+            
+            .season img{
+                width: 350px;
+            }
+            #title{
+                color:yellow;
+            }
+            #springPic{
+                border-top-left-radius:  50px;
+                margin-top: 30px;
+            }
+            
+            #winterPic{
+                border-bottom-right-radius:  50px;
+            }
+            
+            #fallPic{
+                border-bottom-left-radius:  50px;
+            }
+            #summerPic{
+                border-top-right-radius:  50px;
+                width: 400px;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <h1 id="title">The Seasons</h1>
+        
+        <div class="row">
+            <div class="season">
+                <img src="img/spring.png" id="springPic"/>
+                <p>Spring</p>
+            </div>
+            <div class="season">
+                <img src="img/summer.png" id="summerPic"/>
+                <p>Summer</p>
+            </div>
+        </div>
+        
+        <hr> 
+        <div class="row">
+            <div class="season">
+                <img src="img/fall.png" id="fallPic"/>
+                <p>Autumn</p>
+            </div>
+            <div class="season">
+                <img src="img/winter.jpeg" id="winterPic"/>
+                <p>Winter</p>
+            </div>
+        </div>
+    </body>
+</html>
