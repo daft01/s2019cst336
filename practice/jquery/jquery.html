@@ -4,47 +4,45 @@
         <title> </title>
     </head>
     <body>
-        
-        <h2 id="weekday">Weekdays:</h2>
-        <h3 class="smallFont">Monday</h3>
-        <h3>Tuesday</h3>
-        <h2>Weekend:</h2>
-        <h3>Saturday</h3>
-        <h3>Sunday</h3>
-    
-        <div id="box" style="width:100px; height:100px; background:red; position:absolute;">
-            
-        </div>
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script>
-            $("document").ready(function(){
-                console.log("document is READY, baby!");
-                $("h2").css("color", "red");
-                $("h3:first").html("Today is Monday");
-                $("#weekday").css("color", "red");
-                $(".smallFont").css("color", "red");
-                
-                $('h3').click(function(){
-                    $(this).css("border", "solid 2px");
-                });
-                
-                $('#box').click(function(){
-                    
-                    var cssLeft = $('#box').css("left");
-                    
-                    $('#box').animate({left: '250px'});
-                    
-                    setTimeout(function(){
-                        $('#box').animate({left: cssLeft});
-                    }, 2000)
-                });
-                
-                
-            });
-            
-        
-            
-        </script>
+        <form>
+            <label for="fullName">Name</label>
+            <input type="text" id="fullName" name="fullName" size="25" />
+            <div class="input-group">
+                <label for="feedback">Feedback</label>
+                <br />
+                <textarea id="feedback" cols="30" rows="3"></textarea>
+            </div>
+            <div class="input-group">
+                <label for="state">State</label>
+                <br />
+                <select id="state">
+                <option value="AZ">Arizona</option>
+                <option value="CA">California</option>
+                <option value="IL">Illinois</option>
+            </select>
+            </div>
+            <div class="input-group">
+                <label for="feedback">Highest Degree Obtained</label>
+                <br />
+                <input type="radio" id="item1" name="degreeChoices" value="High School">
+                <label for="item1">High School Diploma</label>
+                <br />
+                <input type="radio" id="item2" name="degreeChoices" value="College">
+                <label for="item2">College</label>
+            </div>
+            <div class="input-group">
+                Sports I like:
+                <br />
+                <input type="checkbox" id="basket" name="sports" value="basket">
+                <label for="basket"> Basketball </label>
+                <br />
+                <input type="checkbox" id="soccer" name="sports" value="basket">
+                <label for="soccer"> Soccer </label>
+            </div>
+            <div class="input-group">
+                <input type="button" value="Submit Data" onclick="displayData()" />
+            </div>
+        </form>
+
     </body>
 </html>

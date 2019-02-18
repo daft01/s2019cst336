@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Baby Name Guesser</title>
+    </head>
+    <body>
+        <game>
+            <input type="radio" name="BabyName" value="Daniel" id="myRadio">Daniel<br>
+            <input type="radio" name="BabyName" value="Jessica" id="myRadio">Jessica<br>
+            <input type="radio" name="BabyName" value="Frank" id="myRadio">Danny<br>
+            <input type="radio" name="BabyName" value="Blanca" id="myRadio">Daniel<br>
+            <input type="radio" name="BabyName" value="Ana" id="myRadio">Jessica<br>
+        
+            <button onclick="submit()">Submit</button>
+            
+            <div id="answer"></div>
+            
+        </game>
+        <script type="text/javascript">
+            function submit(){
+                var choice = document.getElementsByName('BabyName').value;
+                document.getElementById("answer").innerHTML = choice;
+            }
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slot Machine</title>
+        <style type="text/css">
+            #title{
+                text-align: center;
+                font-size:3em;
+                padding-bottom: 40px;
+                padding-top: 30px;
+                background-color: silver;
+            }
+            #slots{
+                display: flex;
+                width: 50%;
+                margin: 0px auto;
+            }
+            #button{
+                width: 150px;
+                height: 50px;
+                text-align: center;
+                margin: 20px auto;
+                display: block;
+                background-color: lime;
+                font-size: 1em;
+            }
+            #total{
+                text-align:center;
+                font-size: 1.5em;
+            }
+            #won{
+                text-align:center;
+            }
+            #amountWon{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="title">Slot Machine</div>
+        <button id="button">Play</button>
+        
+        <div id="slots">
+            <img id="slot1"/>
+            <img id="slot2"/>
+            <img id="slot3"/>
+        </div>
+        
+        <audio id="jackpotAudio">
+            <source src="audio/jackpot.m4a" type="audio/mpeg">
+        </audio>
+        <div id="won"></div>
+        <div id="amountWon"></div>
+        <div id="total">Total Winnings $0</div>
+       
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            let imageArray = ["img/cherry.png", "img/grapes.png", "img/seven.png"];
+            var total = 0;
+            
+            $( "button" ).click(function() {
+                var s1 = Math.floor(Math.random() * 3);  
+                var s2 = Math.floor(Math.random() * 3);  
+                var s3 = Math.floor(Math.random() * 3);  
+                
+                    
+                var sound = document.getElementById("audio/jackpot.m4a")
+                $("#slot1").attr("src",imageArray[s1]);
+                $("#slot2").attr("src",imageArray[s2]);
+                $("#slot3").attr("src",imageArray[s3]);
+                
+                var won = 0;
+                if(s1 === s2 && s2 === s3)
+                {
+                    if(0 == s1)
+                        won = 100;
+                    else if(1 == s1)
+                        won = 300;
+                    else
+                        won = 700;
+                }
+                
+                if(won != 0){
+                    $("#won").html("JACKPOT!");
+                    $("#amountWon").html("You won $" + won);
+                    let audio = new Audio("audio/jackpot.m4a");
+                    audio.play();
+                }
+                else{
+                    $("#won").html("Try Again");
+                    $("#amountWon").empty();
+                }
+                
+                total += won;
+                
+                $("#total").html("Total Winnings $" + total);
+                
+            });
+            
+        </script>
+    </body>
+    
+</html>
