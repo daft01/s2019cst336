@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daniel's Secret Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="title">Which kardashian are you?</div>
+            
+        <div id="container">
+            <questions>
+                <div class="textCotainer">Name</div>
+                <input type="text" id="name">
+                
+                <div class="textCotainer">Height</div>
+                
+                <label for="feet">Feet</label>
+                <input type="number" name="feet" min="0" max="6">
+                <label for="inches">Inches</label>
+                <input type="number" name="inches" min="0" max="11">
+                
+                <div class="textCotainer">I am...</div>
+                
+                <input type="checkbox" name="funny" id="funny">
+                <label for="funny">Funny</label>
+                <input type="checkbox" name="hot" id="hot">
+                <label for="hot">Hot</label>
+                <input type="checkbox" name="honest" id="honest">
+                <label for="honest">Honest</label><br>
+                <input type="checkbox" name="intelligent" id="intelligent">
+                <label for="intelligent">Intelligent</label>
+                <input type="checkbox" name="friendly" id="friendly">
+                <label for="friendly">Friendly</label>
+                <input type="checkbox" name="clean" id="clean">
+                <label for="clean">Clean</label>
+                
+                <div class="textCotainer">How do you deal with a serious problem?</div>
+                <input type="radio" name="problem" id="kry" value="kry">
+                <label for="kry">Kry</label>
+                <input type="radio" name="problem" id="joke" value="joke">
+                <label for="joke">Joke about it</label><br>
+                <input type="radio" name="problem" id="deal" value="deal">
+                <label for="deal">Deal with it</label>
+                <input type="radio" name="problem" id="discuss" value="discuss">
+                <label for="discuss">Diskuss it with my family</label>
+                
+                <div class="textCotainer">How do you reach to failure?</div>
+                <input type="radio" name="failure" id="again" value="again">
+                <label for="again">What is failure again?</label>
+                <input type="radio" name="failure" id="whatever" value="whatever">
+                <label for="whatever">Whatever, it happens</label><br>
+                <input type="radio" name="failure" id="option" value="option">
+                <label for="option">Failure isn't an option</label>
+                <input type="radio" name="failure" id="stroger" value="stroger">
+                <label for="stroger">Failure makes you stroger</label>
+                
+                <div class="textCotainer">Who is your favorite kardashian?</div>
+                <select id="mySelect">
+                    <option value="Kim">Kim</option>
+                    <option value="Kendall">Kendall</option>
+                    <option value="Khloe">Khloe</option>
+                    <option value="Kylie">Kylie</option>
+                    <option value="Kourtney">Kourtney</option>
+                </select>
+                
+                <button id="submit">Submit</button>
+            </questions>
+            
+        </div>
+        <div id="results">
+            <img src="" id="matchImg"/>
+            <div id="resultsName"></div>
+            <button id="resetButton">Reset</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        
+            var name;
+            var feet;
+            var inches;
+            var kardashians = [{name: "Khloe", img:"img/khloe.jpg"},
+                               {name: "Kim", img:"img/kim.jpg"},
+                               {name: "Kylie", img:"img/Kylie.jpg"}
+                               ];
+            var count = [0, 0, 0];
+            
+            $( "#submit" ).click(function() {
+                name = document.getElementById('name').value;
+                var problem = $('input[name=problem]:checked').val(); 
+                var failure = $('input[name=failure]:checked').val(); 
+                var favorite = document.getElementById("mySelect").value;
+                
+                console.log(favorite);
+                if(problem === "joke")
+                    count[0]++;
+                else if(problem === "kry")
+                    count[1]++;
+                else if(problem === "deal")
+                    count[2]++;
+                else if(problem === "discuss")
+                    count[2]++;
+                
+                if(failure === "again")
+                    count[0]++;
+                else if(failure === "whatever")
+                    count[1]++;
+                else if(failure === "option")
+                    count[2]++;
+                else if(failure === "stroger")
+                    count[2]++;
+                    
+                if(document.getElementById("funny").checked)
+                    count[0]++;
+                if(document.getElementById("funny").checked)
+                    count[1]++;
+                if(document.getElementById("hot").checked)
+                    count[2]++;
+                if(document.getElementById("honest").checked)
+                    count[0]++;
+                if(document.getElementById("intelligent").checked)
+                    count[2]++;
+                if(document.getElementById("friendly").checked)
+                    count[1]++;
+                if(document.getElementById("clean").checked)
+                    count[0]++;
+                    
+                var max = -1;
+                var match;
+                for(i=0; i<count.length; i++){
+                    if(count[i] > max && kardashians[i].name != favorite){
+                        max = count[i];
+                        match = kardashians[i];
+                    }
+                }
+                
+                $("#matchImg").attr("src", match.img);
+                $("#resultsName").html(name + " is a " + match.name + "!!!");
+                $("#container").empty();
+                $("#results").show();
+                $("#results").appendTo("#container");
+            });
+            
+            $("#resetButton").click(function() {
+            location.reload();
+        });
+            
+        </script>
+    </body>
+</html>
