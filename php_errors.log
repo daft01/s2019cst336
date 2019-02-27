@@ -1,0 +1,37 @@
+[26-Feb-2019 00:46:31 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/ubuntu/workspace/practice/sample.php on line 16
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14
+[26-Feb-2019 00:46:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/practice/sample.php on line 14
+[26-Feb-2019 00:46:44 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sample.php:0
+[26-Feb-2019 00:46:44 UTC] PHP   2. rand() /home/ubuntu/workspace/practice/sample.php:14

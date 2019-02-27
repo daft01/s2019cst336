@@ -1,0 +1,40 @@
+body{
+    font-size: 2em;
+}
+
+h1{
+    text-align: center;
+}
+
+legend{
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 25px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    font-size: .5em;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 40px;
+    background-color: lime;
+    border-radius: 10px;
+    font-size: .5em;
+}
+
+select{
+    height: 30px;
+    width: 200px;
+    font-size: .5em;
+}

@@ -1,0 +1,27 @@
+[26-Feb-2019 22:35:33 UTC] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'password' not found or invalid function name in /home/ubuntu/workspace/Labs/lab4/server.php on line 29
+[26-Feb-2019 22:35:33 UTC] PHP Stack trace:
+[26-Feb-2019 22:35:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab4/server.php:0
+[26-Feb-2019 22:35:33 UTC] PHP   2. array_map() /home/ubuntu/workspace/Labs/lab4/server.php:29
+[26-Feb-2019 22:36:39 UTC] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'password' not found or invalid function name in /home/ubuntu/workspace/Labs/lab4/server.php on line 29
+[26-Feb-2019 22:36:39 UTC] PHP Stack trace:
+[26-Feb-2019 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab4/server.php:0
+[26-Feb-2019 22:36:39 UTC] PHP   2. array_map() /home/ubuntu/workspace/Labs/lab4/server.php:29
+[26-Feb-2019 22:37:13 UTC] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'password' not found or invalid function name in /home/ubuntu/workspace/Labs/lab4/server.php on line 29
+[26-Feb-2019 22:37:13 UTC] PHP Stack trace:
+[26-Feb-2019 22:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab4/server.php:0
+[26-Feb-2019 22:37:13 UTC] PHP   2. array_map() /home/ubuntu/workspace/Labs/lab4/server.php:29
+[26-Feb-2019 22:44:01 UTC] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'password' not found or invalid function name in /home/ubuntu/workspace/Labs/lab4/server.php on line 29
+[26-Feb-2019 22:44:01 UTC] PHP Stack trace:
+[26-Feb-2019 22:44:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab4/server.php:0
+[26-Feb-2019 22:44:01 UTC] PHP   2. array_map() /home/ubuntu/workspace/Labs/lab4/server.php:29
+[26-Feb-2019 22:44:26 UTC] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'password' not found or invalid function name in /home/ubuntu/workspace/Labs/lab4/server.php on line 29
+[26-Feb-2019 22:44:26 UTC] PHP Stack trace:
+[26-Feb-2019 22:44:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab4/server.php:0
+[26-Feb-2019 22:44:26 UTC] PHP   2. array_map() /home/ubuntu/workspace/Labs/lab4/server.php:29
+[26-Feb-2019 22:44:33 UTC] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'password' not found or invalid function name in /home/ubuntu/workspace/Labs/lab4/server.php on line 29
+[26-Feb-2019 22:44:33 UTC] PHP Stack trace:
+[26-Feb-2019 22:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab4/server.php:0
+[26-Feb-2019 22:44:33 UTC] PHP   2. array_map() /home/ubuntu/workspace/Labs/lab4/server.php:29
+[26-Feb-2019 23:29:57 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/ubuntu/workspace/Labs/lab4/server.php on line 54
+[26-Feb-2019 23:30:00 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/ubuntu/workspace/Labs/lab4/server.php on line 54
+[26-Feb-2019 23:30:04 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/ubuntu/workspace/Labs/lab4/server.php on line 54

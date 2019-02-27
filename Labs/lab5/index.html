@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <p>Username: </p>
+        <input type="text" name="userName" id="userName"><br>
+        <p>Password:</p><input type="password" name="password" id="password"><br>
+        <div id="suggestPassword"></div>
+        <button id="button">button</button>
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        console.log("in script")
+        $(document).ready(function(e) {
+             console.log("on ready")
+            $.ajax({
+                type: "get",
+                url: "/Labs/lab4/server.php",
+                dataType: "json",
+                data: {},
+                success: function(data) {
+                    $("#suggestPassword").html("Suggested Password: " + data);
+                },
+                error: function(err) {
+                    console.log(arguments);  
+                },
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //console.log(status);
+                }
+            });
+        });
+        
+        $("#button").click(function(){
+            
+            var uName = $('#userName').val();
+            var pword = $('#password').val();
+            
+            $.ajax({
+            type: "POST",
+            url: "/Labs/lab4/server.php",
+            dataType: "json",
+            data: {
+                userName : uName,
+                password : pword
+            },
+            success: function (data) {
+               console.log(data);
+            },
+            error: function () {
+             alert('Error');
+            }
+        });
+        });
+
+        
+    </script>
+
+    </body>
+</html>
