@@ -1,0 +1,175 @@
+[25-Mar-2019 21:56:35 UTC] PHP Fatal error:  Undefined class constant 'After_ERRMODE' in /home/ubuntu/workspace/Labs/lab6/dbConnection.php on line 11
+[25-Mar-2019 21:56:35 UTC] PHP Stack trace:
+[25-Mar-2019 21:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[25-Mar-2019 21:56:35 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:5
+[25-Mar-2019 21:57:34 UTC] PHP Fatal error:  Undefined class constant 'After_ERRMODE' in /home/ubuntu/workspace/Labs/lab6/dbConnection.php on line 11
+[25-Mar-2019 21:57:34 UTC] PHP Stack trace:
+[25-Mar-2019 21:57:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[25-Mar-2019 21:57:34 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:5
+[25-Mar-2019 21:57:42 UTC] PHP Fatal error:  Undefined class constant 'After_ERRMODE' in /home/ubuntu/workspace/Labs/lab6/dbConnection.php on line 11
+[25-Mar-2019 21:57:42 UTC] PHP Stack trace:
+[25-Mar-2019 21:57:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[25-Mar-2019 21:57:42 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:5
+[27-Mar-2019 04:47:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:47:08 UTC] PHP Stack trace:
+[27-Mar-2019 04:47:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:48:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:48:57 UTC] PHP Stack trace:
+[27-Mar-2019 04:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:50:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:50:42 UTC] PHP Stack trace:
+[27-Mar-2019 04:50:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:50:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:50:53 UTC] PHP Stack trace:
+[27-Mar-2019 04:50:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:53:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:53:26 UTC] PHP Stack trace:
+[27-Mar-2019 04:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:57:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:57:36 UTC] PHP Stack trace:
+[27-Mar-2019 04:57:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:58:10 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:58:10 UTC] PHP Stack trace:
+[27-Mar-2019 04:58:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:58:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:58:24 UTC] PHP Stack trace:
+[27-Mar-2019 04:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 04:58:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 04:58:27 UTC] PHP Stack trace:
+[27-Mar-2019 04:58:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:01:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:01:50 UTC] PHP Stack trace:
+[27-Mar-2019 05:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:02:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:02:02 UTC] PHP Stack trace:
+[27-Mar-2019 05:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:02:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:02:08 UTC] PHP Stack trace:
+[27-Mar-2019 05:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:02:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:02:37 UTC] PHP Stack trace:
+[27-Mar-2019 05:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:11:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:11:24 UTC] PHP Stack trace:
+[27-Mar-2019 05:11:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:12:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:12:12 UTC] PHP Stack trace:
+[27-Mar-2019 05:12:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:13:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:13:06 UTC] PHP Stack trace:
+[27-Mar-2019 05:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:13:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:13:36 UTC] PHP Stack trace:
+[27-Mar-2019 05:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:14:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:14:56 UTC] PHP Stack trace:
+[27-Mar-2019 05:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:15:21 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:15:21 UTC] PHP Stack trace:
+[27-Mar-2019 05:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:15:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:15:41 UTC] PHP Stack trace:
+[27-Mar-2019 05:15:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:15:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:15:54 UTC] PHP Stack trace:
+[27-Mar-2019 05:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:16:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:16:07 UTC] PHP Stack trace:
+[27-Mar-2019 05:16:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:16:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 5
+[27-Mar-2019 05:16:25 UTC] PHP Stack trace:
+[27-Mar-2019 05:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:0
+[27-Mar-2019 05:16:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getCategories.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 10
+[27-Mar-2019 05:16:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getCategories.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 10
+[27-Mar-2019 05:16:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getCategories.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getCategories.php on line 10
+[27-Mar-2019 05:50:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:50:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:52:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:55:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 16
+[27-Mar-2019 05:55:54 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php on line 18
+[27-Mar-2019 05:55:54 UTC] PHP Stack trace:
+[27-Mar-2019 05:55:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:0
+[27-Mar-2019 05:55:54 UTC] PHP   2. json_decode() /home/ubuntu/workspace/Labs/lab6/api/getSearchResults.php:18

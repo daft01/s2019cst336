@@ -1,5 +1,7 @@
 <?php
   session_start();
+  
+  // Taken usernames
   $userNames = array("daft01", "jrios10", "frandTheTank");
 
   $httpMethod = strtoupper($_SERVER['REQUEST_METHOD']);
@@ -22,6 +24,7 @@
       $length =  rand(7, 13);
       $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
       
+      // Getting the password
       for($i = 0; $i < $length; $i++){
           $password .= $characters[rand(0, 61)];
       }
@@ -34,22 +37,43 @@
       // Get the body json that was sent
       $rawJsonString = file_get_contents("php://input");
 
-      //var_dump($rawJsonString);
-
+      // string to arraylist
+      parse_str($rawJsonString, $data);
+      
       // Make it a associative array (true, second param)
       $jsonData = json_decode($rawJsonString, true);
       
       // TODO: do stuff to get the $results which is an associative array
-      $results = array("Daniel");
-
+      $validPassword = true;
+      $validUsername = true;
+      
+      // Checking if username is valid
+      foreach($userNames as $user){
+        if($user === $data[userName]){
+          $validUsername = false;
+        }
+      }
+      
+      // Checking if password is valid
+      if (strpos($data[password], $data[userName]) !== false) {
+        $validPassword = false;
+      }
+      
+      // Adding username to the array of usernames if the account if valid
+      if($validUsername && $validPassword){
+        array_push($userNames, $data[userName]);
+      }
+      
+      // Making array map
+      $info = array("validUsername" => $validUsername, "validPassword" => $validPassword);
+      
       // Allow any client to access
       header("Access-Control-Allow-Origin: *");
       // Let the client know the format of the data being returned
       header("Content-Type: application/json");
 
       // Sending back down as JSON
-      
-      echo json_encode($rawJsonString);
+      echo json_encode($info);
 
       break;
     case 'PUT':
