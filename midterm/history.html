@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matches</title>
+    </head>
+    <body>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        
+         $(document).ready(function(){
+             $.ajax({
+                type:"GET",
+                url:"api/getAllMatches.php",
+                dataType: "json",
+                success: function(data, status){
+                    
+                }
+            });
+         });
+    </script>
+    </body>
+</html>

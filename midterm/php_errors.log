@@ -1,0 +1,47 @@
+[27-Mar-2019 22:54:27 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 2
+[27-Mar-2019 22:54:27 UTC] PHP Stack trace:
+[27-Mar-2019 22:54:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:54:27 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 2
+[27-Mar-2019 22:54:27 UTC] PHP Stack trace:
+[27-Mar-2019 22:54:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:54:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 4
+[27-Mar-2019 22:54:27 UTC] PHP Stack trace:
+[27-Mar-2019 22:54:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:56:20 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 2
+[27-Mar-2019 22:56:20 UTC] PHP Stack trace:
+[27-Mar-2019 22:56:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:56:20 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 2
+[27-Mar-2019 22:56:20 UTC] PHP Stack trace:
+[27-Mar-2019 22:56:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:56:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 4
+[27-Mar-2019 22:56:20 UTC] PHP Stack trace:
+[27-Mar-2019 22:56:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:57:51 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 2
+[27-Mar-2019 22:57:51 UTC] PHP Stack trace:
+[27-Mar-2019 22:57:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:57:51 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 2
+[27-Mar-2019 22:57:51 UTC] PHP Stack trace:
+[27-Mar-2019 22:57:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 22:57:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/midterm/api/getAllUsers.php on line 4
+[27-Mar-2019 22:57:51 UTC] PHP Stack trace:
+[27-Mar-2019 22:57:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/api/getAllUsers.php:0
+[27-Mar-2019 23:09:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/midterm/api/getAllMatches.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getAllMatches.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getAllMatches.php on line 9
+[27-Mar-2019 23:12:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''match' at line 1' in /home/ubuntu/workspace/midterm/api/getAllMatches.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getAllMatches.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getAllMatches.php on line 9
+[27-Mar-2019 23:12:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''match' at line 1' in /home/ubuntu/workspace/midterm/api/getAllMatches.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getAllMatches.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getAllMatches.php on line 9
+[27-Mar-2019 23:14:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''match' at line 1' in /home/ubuntu/workspace/midterm/api/getAllMatches.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getAllMatches.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getAllMatches.php on line 9

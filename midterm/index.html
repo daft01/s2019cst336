@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cinter
+            <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        </title>
+    </head>
+    <body>
+        <div id="match">Match</div>
+        <div id="history"><a href="history.html">History</a></div>
+        <div id="title">Match</div>
+        
+        <img src="#">
+        <div id="username"></div>
+        <div id="message"></div>
+        
+        <button id="dislike">Dislike</button>
+        <button id="meh">?</button>
+        <button id="like">Like</button>
+        
+        
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var users = {};
+        var index = 1;
+        var matches;
+        
+         $(document).ready(function(){
+             $.ajax({
+                type:"GET",
+                url:"api/getAllUsers.php",
+                dataType: "json",
+                success: function(data, status){
+                    
+                     data.forEach(function(key){
+                         users[key['id']] = {username : key['username'] , image : key['picture_url'], info : key['about_me'] };
+                         $("img").attr(src,key['picture_url']);
+                         $("#username").html(key['username']);
+                         $("#message").html(key['about_me']);
+                     });
+                     
+                }
+            });
+            
+            console.log(users);
+            nextMatch();
+         });
+         
+        function getMatches(){
+            
+            var matches = [];
+            $.ajax({
+                type:"GET",
+                url:"api/getAllMatches.php",
+                dataType: "json",
+                success: function(data, status){
+                    data.forEach(function(key){
+                         if(key['user_id'] == 1)
+                            matches.push(key['match_user_id']);
+                     });
+                }
+            });
+            
+            return matches
+        }
+        
+        function nextMatch(){
+                
+            matches = getMatches();
+            
+            console.log(matches);
+            
+            console.log(users.username);
+            
+            for(; ;){
+                
+        
+                index += 1;
+                
+                if(index == 21)
+                 index = 2;
+                 
+                
+                if(!matches.includes(index)){
+                    
+                    // I cound get the information from users.
+                    break;
+                }
+                
+            }
+        }
+    
+    </script>
+            
+            
+    </body>
+</html>
