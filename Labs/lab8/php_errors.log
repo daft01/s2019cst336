@@ -1,0 +1,310 @@
+[22-Apr-2019 23:37:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e833b80b20f2093ed1584d05fb1d4794e174e3d419b80c4090f5c470a0ebb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:37:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/ed32b70e2cfc1c22d2524518b74d4494e076e3d510ac104490f5c87ea1efb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:38:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/eb31b90b2df6043ed1584d05fb1d4794e174e3d419b80c4090f5c470a0ebb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:39:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e833b80b20f2093ed1584d05fb1d4794e174e3d419b80c4090f5c470a0ebb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:41:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e834b4072af2083ed1584d05fb1d4794e174e3d419b80c4090f5c470a0ebb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:46:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/ec37b50e2cf51c22d2524518b74d4494e076e3d510ac104490f5c87ea1e5b' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:48:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/ec37b50e2cf51c22d2524518b74d4494e076e3d510ac104490f5c87ea1e4b' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:49:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e13db60d2ff61c22d2524518b74d4494e076e3d510ac104490f5c87ea1e4b' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 10
+[22-Apr-2019 23:52:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e834b4072af2083ed1584d05fb1d4794e174e3d419b80c4090f5c470a0eab' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 11
+[22-Apr-2019 23:55:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(17): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 17
+[22-Apr-2019 23:56:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(17): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 17
+[22-Apr-2019 23:56:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(17): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 17
+[22-Apr-2019 23:56:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(17): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 17
+[22-Apr-2019 23:56:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/insertLike.php(17): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/insertLike.php on line 17
+[23-Apr-2019 00:21:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[23-Apr-2019 00:21:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/ea35b30b2af3083ed1584d05fb1d4794e174e3d419b80c4090f5c470a0e5b' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 10
+[23-Apr-2019 00:24:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[23-Apr-2019 00:24:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/eb35b80e2cfc1c22d2524518b74d4494e076e3d510ac104490f5c87eaeedb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 10
+[23-Apr-2019 00:25:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[23-Apr-2019 00:25:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83cb8092df41c22d2524518b74d4494e076e3d510ac104490f5c87eaeecb' at line 1' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 10
+[23-Apr-2019 00:26:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[23-Apr-2019 00:26:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:13:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:13:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:30:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:30:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:30:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:31:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:31:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:31:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:31:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:31:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:31:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:31:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:32:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
+[24-Apr-2019 17:33:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:33:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:33:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:33:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:33:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:33:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/unLike.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/unLike.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/unLike.php on line 11
+[24-Apr-2019 17:40:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Labs/lab8/api/like.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Labs/lab8/api/like.php(11): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Labs/lab8/api/like.php on line 11
