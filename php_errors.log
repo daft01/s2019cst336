@@ -44,3 +44,318 @@
 [27-Mar-2019 22:56:46 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/midterm/getAllUsers.php on line 4
 [27-Mar-2019 22:56:46 UTC] PHP Stack trace:
 [27-Mar-2019 22:56:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/getAllUsers.php:0
+[30-Apr-2019 06:59:15 UTC] PHP Warning:  include(dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project5/uploadFile.php on line 17
+[30-Apr-2019 06:59:15 UTC] PHP Warning:  include(): Failed opening 'dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project5/uploadFile.php on line 17
+[30-Apr-2019 06:59:15 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 06:59:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:01:20 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:01:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileName' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 24
+[30-Apr-2019 07:05:08 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:05:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:05:45 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/ubuntu/workspace/project5/uploadFile.php on line 23
+[30-Apr-2019 07:07:10 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:07:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:08:00 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:08:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileName' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:12:49 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:12:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:14:17 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:14:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:14:19 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:14:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:14:20 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 18
+[30-Apr-2019 07:14:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[30-Apr-2019 07:15:32 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 19
+[30-Apr-2019 07:15:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[30-Apr-2019 07:16:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:16:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:16:45 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:16:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:17:16 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:17:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:17:30 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:17:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:23:32 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:23:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:28:25 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:28:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileSize' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:32:34 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 21
+[30-Apr-2019 07:32:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fileName' cannot be null' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 07:46:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:17:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:21:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:26:45 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/project5/uploadFile.php on line 38
+[30-Apr-2019 08:27:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/project5/uploadFile.php on line 38
+[30-Apr-2019 08:28:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:29:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:29:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:30:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:52:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/project5/uploadFile.php on line 36
+[30-Apr-2019 08:53:56 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/project5/uploadFile.php on line 19
+[30-Apr-2019 08:53:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[30-Apr-2019 08:54:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/project5/uploadFile.php on line 36
+[30-Apr-2019 08:56:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/project5/uploadFile.php on line 37
+[30-Apr-2019 08:57:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[30-Apr-2019 08:58:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[30-Apr-2019 22:29:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fileName' in 'field list'' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[30-Apr-2019 22:36:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[30-Apr-2019 22:38:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[30-Apr-2019 22:43:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[30-Apr-2019 23:05:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:09:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:17:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:17:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 25
+[01-May-2019 19:23:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:28:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:30:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:30:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:32:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 28
+[01-May-2019 19:34:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:34:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 27
+[01-May-2019 19:36:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[01-May-2019 19:39:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 32
+[01-May-2019 19:40:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 32
+[01-May-2019 19:41:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 32
+[01-May-2019 19:41:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 32
+[01-May-2019 19:42:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 32
+[01-May-2019 19:44:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '')' at line 1' in /home/ubuntu/workspace/project5/uploadFile.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 33
+[01-May-2019 19:50:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 33
+[01-May-2019 19:51:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 33
+[01-May-2019 19:53:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/project5/uploadFile.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 33
+[01-May-2019 19:58:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/project5/uploadFile.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/project5/uploadFile.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/project5/uploadFile.php on line 26
+[01-May-2019 20:34:51 UTC] PHP Warning:  include(../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project5/getData.php on line 3
+[01-May-2019 20:34:51 UTC] PHP Warning:  include(): Failed opening '../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project5/getData.php on line 3
+[01-May-2019 20:34:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 20:34:59 UTC] PHP Warning:  include(../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project5/getData.php on line 3
+[01-May-2019 20:34:59 UTC] PHP Warning:  include(): Failed opening '../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project5/getData.php on line 3
+[01-May-2019 20:34:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 20:35:39 UTC] PHP Warning:  include(../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project5/getData.php on line 3
+[01-May-2019 20:35:39 UTC] PHP Warning:  include(): Failed opening '../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project5/getData.php on line 3
+[01-May-2019 20:35:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 20:37:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 20:40:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 20:41:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:01:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:03:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:03:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:03:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:05:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project5/home.php on line 21
+[01-May-2019 21:05:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:06:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:06:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:07:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:07:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
+[01-May-2019 21:08:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/project5/getData.php on line 7
