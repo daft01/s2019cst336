@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+       <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+    	
+    <div id="signUpContainer">
+    	<h1>Sign up</h1>
+		<input type="text" name="first_name" id="first_name" placeholder="First name"/>
+		<input type="text" name="last_name" id="last_name" placeholder="Last name"/>
+		<br>
+		<input type="text" name="username" id="username" placeholder="Username"/>
+		<br>
+		<input type="password" name="password" id="password" placeholder="Password"/>
+		<input type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirm Password"/>
+		<br>
+		<button id="submit" onclick="submit()">Submit</button>
+	</div>	
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script>
+	    function submit(){
+	    	
+	        var username = document.getElementById("username").value;
+	        var password = document.getElementById("password").value;
+	        var conPassword = document.getElementById("password_confirmation").value;
+	        var firstName = document.getElementById("first_name").value;
+	        var lastName = document.getElementById("last_name").value;
+	        
+	        if(password != conPassword){
+	            alert("Passwords don't match");
+	        }
+	        
+	        console.log(password + " " + conPassword);
+	        
+	         $.ajax({
+                type: "POST",
+                url: "api/addUser.php",
+                dataType: "json",
+                data:
+                {
+                  "username" : username,
+                  "password" : password,
+                  "firstname" : firstName,
+                  "lastname" : lastName
+                },
+                success: function(data) {
+                  
+                    window.location = "index.html";
+                     
+                },
+                error: function(status,err) {
+                    alert("Username is taken")
+                },
+            });
+	        
+	    }
+    	</script>
+    </body>
+</html>

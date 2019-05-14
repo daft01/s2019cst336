@@ -1,0 +1,223 @@
+[12-May-2019 00:55:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'' in /home/ubuntu/workspace/final/api/addUser.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addUser.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addUser.php on line 8
+[12-May-2019 01:10:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bDuenez' for key 'PRIMARY'' in /home/ubuntu/workspace/final/api/addUser.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addUser.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addUser.php on line 12
+[12-May-2019 01:33:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('0')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:33:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('0')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:34:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.users' doesn't exist' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:35:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.users' doesn't exist' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:35:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.users' doesn't exist' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:37:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.users' doesn't exist' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:37:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.users' doesn't exist' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:40:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('0')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:42:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/final/api/signIn.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/signIn.php(9): PDO->prepare('0')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/signIn.php on line 9
+[12-May-2019 01:45:11 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/final/api/signIn.php on line 13
+[12-May-2019 01:45:19 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/final/api/signIn.php on line 13
+[13-May-2019 05:21:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/final/api/addSlot.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(8): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 8
+[13-May-2019 05:22:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/final/api/addSlot.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(8): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 8
+[13-May-2019 05:22:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/final/api/addSlot.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(8): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 8
+[13-May-2019 05:23:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/final/api/addSlot.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(8): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 8
+[13-May-2019 05:30:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/final/api/addSlot.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(8): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 8
+[13-May-2019 05:34:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/ubuntu/workspace/final/api/addSlot.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(8): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 8
+[13-May-2019 05:37:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/ubuntu/workspace/final/api/addSlot.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(9): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 9
+[13-May-2019 05:37:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/ubuntu/workspace/final/api/addSlot.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(9): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 9
+[13-May-2019 05:37:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/ubuntu/workspace/final/api/addSlot.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/addSlot.php(9): PDO->prepare('INSERT INTO `ap...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/addSlot.php on line 9
+[13-May-2019 06:28:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/final/api/getSlots.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/getSlots.php(9): PDO->prepare('0')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/getSlots.php on line 9
+[13-May-2019 08:20:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:20:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:21:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:21:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:21:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1' in /home/ubuntu/workspace/final/api/deleteSlot.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/final/api/deleteSlot.php(7): PDO->prepare('10')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/api/deleteSlot.php on line 7
+[13-May-2019 08:22:23 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:07 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:08 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:08 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:08 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:08 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:08 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:09 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:09 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:09 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:09 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:09 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:09 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:10 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:10 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6
+[13-May-2019 08:25:10 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final/api/deleteSlot.php on line 6

@@ -1,0 +1,254 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="container">
+            <button id="logout" onclick="logout()">Logout</button>
+            <br>
+            <div id="invitation">
+                <span id="invitationText">Invitation Link: </span>
+                <input type="text" id="invitationLink">
+                <button id="copyText" onclick="copyText()">Copy</button>
+            </div>
+            
+            <hr>
+            <table id="table">
+                <tr id="tableTitle">
+                    <td>Date</td>
+                    <td>Start Time</td>
+                    <td>Duration</td>
+                    <td>Book by</td>
+                    <td><a href="#" onclick="addSlotClicked()">Add Multible Time Slots +</a></td>
+                </tr>
+             </table>
+        </div>
+        
+        <div class="modal" tabindex="-1" role="dialog" id="addslot">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Add Slot</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                        <span>Date: </span><input type="date" id="date">
+                    </div>
+                    <div>
+                        <span>Starting Time: </span><input type="time" id="startingTime">
+                    </div>
+                     <div>
+                        <span>Ending Time:   </span><input type="time" id="endingTime">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="addSlot()">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal" tabindex="-1" role="dialog" id="cancelModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div id="cancelMessage">
+                        <h5 class="modal-title">Cancel</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        
+                        <div>Are you sure you want to remove the time slot? This cannot be undone.</div>
+                          <div class="modal-footer">
+                            <button type="button" id="confirmRemoveButton" class="btn btn-primary" onclick="removeSlot(this)">Yes, Remove it!</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+        
+        var userUsername;
+        var refresh;
+        
+        $('document').ready(function(){
+            
+            var url = new URL(document.URL);
+            userUsername = url.searchParams.get("username");
+            
+            var shareURL = 'https://s2019cst336-dafth001.c9users.io/final/book.html?';
+            
+            const urp = new URLSearchParams({username: userUsername});
+            
+            shareURL += urp.toString();
+        
+            document.getElementById("invitationLink").value = shareURL;
+            
+            refresh = "https://s2019cst336-dafth001.c9users.io/final/home.html?" + urp.toString();
+            
+            console.log(userUsername);
+            
+            $.ajax({
+                type: "GET",
+                url: "api/getSlots.php",
+                dataType: "json",
+                data:
+                {
+                    "username" : userUsername,
+                },
+                success: function(data) {
+                     
+                    data.forEach(function(slot) {
+                        
+                        var t = "";
+                        var hours = parseInt(slot["duration"]);
+                        var minutes = Math.round( ( slot["duration"] - parseInt(slot["duration"]) )* 100 );
+                        
+                        if(hours != 0) t += hours + " hours\n";
+                        if(minutes != 0) t += minutes + " minutes";
+                        
+                        var table = document.getElementById("table");
+                        
+                        var row = table.insertRow(-1);
+                        
+                        var cell1 = row.insertCell(0);
+                        cell1.innerHTML = slot["date"];
+                        
+                        var cell2 = row.insertCell(1);
+                        cell2.innerHTML = slot["time"];
+                        
+                        var cell3 = row.insertCell(2);
+                        cell3.innerHTML = t;
+                        
+                        var cell4 = row.insertCell(3);
+                        cell4.innerHTML = slot["book"];
+                        
+                        var cell5 = row.insertCell(4);
+                        cell5.innerHTML = '<button id="' + slot["id"] + '" class="detailButton" onclick="detailsClicked(this)">Details</button>  <button id="' + slot["id"] + '" class="cancelButton" onclick="cancelClicked(this)">Cancel</button>';
+                    });
+                    
+                },
+                error: function(status,err) {
+                    alert("Error");
+                },
+            });
+
+        });
+        
+        function addSlot(){
+            
+            var date = document.getElementById("date").value;
+            var startingTime = document.getElementById("startingTime").value;
+            var endingTime = document.getElementById("endingTime").value;
+            
+            var startingHour = parseInt( startingTime.substring(0, 2) );
+            var startingMin =  parseInt( startingTime.substring(3, 5) );
+            
+            var endingHour = parseInt( endingTime.substring(0, 2) );
+            var endingMin = parseInt( endingTime.substring(3, 5) );
+            
+            var time = endingHour - startingHour;
+            
+            if( endingMin - startingMin > 0 )
+                time += (endingMin - startingMin) * .01;
+            else
+                time += (startingMin - endingMin) * .01 - 1;
+                
+            time = Math.round(time * 100) / 100;
+            
+            console.log(time);
+             $.ajax({
+                type: "POST",
+                url: "api/addSlot.php",
+                dataType: "json",
+                data:
+                {
+                  "username" : userUsername,
+                  "date" : date,
+                  "startingTime" : startingTime + ":00",
+                  "endingTime" : endingTime + ":00",
+                  "time" : time
+                },
+                success: function(data) {
+                  
+                    window.location = refresh;
+                     
+                },
+                error: function(status,err) {
+                    console.log(status);
+                },
+            });
+        }
+        
+        function logout(){
+            window.location = "index.html";
+        }
+        
+        function addSlotClicked(){
+            $('#addslot').modal({
+              keyboard: false
+            })
+        }
+        
+        function copyText(){
+            console.log("loL");
+            var copyText = document.getElementById("invitationLink");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+        }
+        
+        function detailsClicked(slot){
+            $('#detailsModal').modal({
+              keyboard: false
+            })
+        }
+        
+        function cancelClicked(slot){
+            
+             $('#cancelModal').modal({
+              keyboard: false
+            })
+            
+            document.getElementById('confirmRemoveButton').id = slot.id;
+        }
+        
+        function removeSlot(slot){
+            
+            console.log(slot.id);
+            $.ajax({
+                type: "POST",
+                url: "api/deleteSlot.php",
+                dataType: "json",
+                data:
+                {
+                  "id" : slot.id
+                },
+                success: function(data) {
+                    window.location = refresh;
+                },
+                error: function(status,err) {
+                    console.log(status);
+                },
+            });
+            
+        }
+        
+        </script>
+</html>

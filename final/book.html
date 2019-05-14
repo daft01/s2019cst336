@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        
+        <h1 id=username></h1>
+        <script>
+            var url = new URL(document.URL);
+            var username = url.searchParams.get("username");
+            
+            document.getElementById("username").innerHTML = username;
+            
+        </script>
+    </body>
+</html>

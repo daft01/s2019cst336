@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+       <style>
+        #container{
+          text-align: center;
+          font-size: 2.5em;
+        }
+        input{
+          font-size: 1em;
+        }
+       </style>
+    </head>
+    <body>
+          
+        <div id="container">
+          <label for="username">Username</label>
+          <input type="text" id="username" class="form-control" placeholder="Username" required autofocus>
+          
+          <br>
+   
+          <label for="inputPassword">Password</label>
+          <input type="password" id="password" class="form-control" placeholder="Password" required>
+        
+          <br>
+          <button id="submit">Sign in</button>
+          <br>
+          <a href="signUp.html">Sign Up</a>
+        </div>
+    </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>
+
+  $( "#submit" ).click(function( event ) {
+      
+      console.log( $("#username").val());
+      $.ajax({
+        type: "GET",
+        url: "api/signIn.php",
+        dataType: "json",
+        data:
+        {
+          "username" : $("#username").val(),
+          "password" : $("#password").val()
+        },
+        success: function(data) {
+          
+            if(data == "success"){
+              
+              var userUsername = $("#username").val();
+              var shareURL = 'https://s2019cst336-dafth001.c9users.io/final/home.html?';
+              
+              const urp = new URLSearchParams({username: userUsername});
+            
+            shareURL += urp.toString();
+              window.location = shareURL;
+            }else{
+              alert("Password is invalid");
+            }
+             
+        },
+        error: function(status,err) {
+            
+            alert("Username not found");
+        },
+    });
+});
+	
+</script>

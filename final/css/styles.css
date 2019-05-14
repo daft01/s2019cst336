@@ -1,0 +1,72 @@
+#container{
+    width: 1200px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+#logout{
+    display: block;
+    float: right;
+    font-size: 2em;
+}
+
+#invitation{
+    display: flex;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+#invitationText{
+    margin-right: 20px;
+}
+
+#invitationLink{
+    width:600px;
+    border-style: solid;
+}
+
+#copyText{
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #00BFFF;
+}
+
+table{
+    width:1200px;
+}
+
+table tr{
+    font-size: 2em;
+    text-align: center;
+    width: 240px;
+}
+
+#signUpContainer{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#signUpContainer input{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#appointentText{
+    width: 500px;
+    color: green;
+}
+
+.detailButton{
+    width: 120px;
+    height: 50px;
+    background-color: lime;
+    margin-right: 5px;
+}
+
+.cancelButton{
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    margin-left: 5px;
+}
